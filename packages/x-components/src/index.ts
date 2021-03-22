@@ -5,5 +5,3 @@ export const result: Result = {
   image: 'nope',
   title: 'A result'
 }
-
-export const sort: Sort = 'price';
