@@ -1,0 +1,17 @@
+0 silly argv { _: [ 'bootstrap' ], lernaVersion: '4.0.0', '$0': 'lerna' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/javieriglesiasgarcia/Developer/Github/lerna-repo
+3 info versioning independent
+4 error JSONError: Unexpected token "}" (0x7D) in JSON at position 292 while parsing near "...est/search-types\"\n  },\n  \"devDependencie..." in packages/x-components/package.json
+4 error
+4 error [0m [90m 12 |[39m   [32m"dependencies"[39m[33m:[39m {[0m
+4 error [0m [90m 13 |[39m     [32m"@empathytest/search-types"[39m[0m
+4 error [0m[31m[1m>[22m[39m[90m 14 |[39m   }[33m,[39m[0m
+4 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+4 error [0m [90m 15 |[39m   [32m"devDependencies"[39m[33m:[39m {[0m
+4 error [0m [90m 16 |[39m     [32m"typescript"[39m[33m:[39m [32m"^4.2.3"[39m[0m
+4 error [0m [90m 17 |[39m   }[0m
+4 error
+4 error     at parseJson (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:29:21)
+4 error     at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:15:9)
+4 error     at module.exports (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:18:47)
