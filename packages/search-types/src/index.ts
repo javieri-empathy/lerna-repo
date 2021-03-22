@@ -3,3 +3,5 @@ export interface Result {
   title: string;
   image: string;
 }
+
+export type Sort = string;
