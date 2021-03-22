@@ -1,5 +1,5 @@
 {
-  "name": "@empathy/x-components",
+  "name": "@empathytest/x-components",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@empathytest/search-types": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
 }
