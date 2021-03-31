@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/x-components@1.2.2...@empathytest/x-components@2.0.0) (2021-03-31)
+
+
+### Features
+
+* **result:** remove `image` from x components result ([ce21369](https://github.com/javieri-empathy/lerna-repo/commit/ce213694f2b5a3ccd38d1a29461ef99310045cbf))
+
+
+### BREAKING CHANGES
+
+* **result:** remove `image`
+
+
+
+
+
 ## [1.2.2](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/x-components@1.2.1...@empathytest/x-components@1.2.2) (2021-03-31)
 
 **Note:** Version bump only for package @empathytest/x-components
