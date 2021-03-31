@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@2.0.0...@empathytest/search-types@3.0.0) (2021-03-31)
+
+
+### Features
+
+* **result:** remove `images` property. ([f4a3109](https://github.com/javieri-empathy/lerna-repo/commit/f4a3109fedb65c62d3f021a1f16d22cfbe18cbfc))
+
+
+### BREAKING CHANGES
+
+* **result:** remove images property from `Result`.
+
+
+
+
+
 # [2.0.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@1.2.0...@empathytest/search-types@2.0.0) (2021-03-22)
 
 
