@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/javieri-empathy/lerna-repo/compare/v4.0.0...v4.1.0) (2021-03-31)
+
+
+### Features
+
+* **result:** fill images property ([537a3b9](https://github.com/javieri-empathy/lerna-repo/commit/537a3b9903beb2db860a3af61465e9adbe6c1ff9))
+
+
+
+
+
 # 4.0.0 (2021-03-31)
 
 
