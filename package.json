@@ -1,6 +1,10 @@
 {
   "name": "@empathytest/lerna",
   "private": true,
+  "scripts": {
+    "postinstall": "lerna bootstrap --hoist",
+    "build": "lerna run build"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
