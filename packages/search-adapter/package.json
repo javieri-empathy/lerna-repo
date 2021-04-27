@@ -1,0 +1,19 @@
+{
+  "name": "@empathytest/search-adapter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@empathytest/search-types": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
