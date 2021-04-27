@@ -3,9 +3,7 @@
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap --hoist",
-    "build": "lerna run build",
-    "test": "lerna run test",
-    "lint": "lerna run lint"
+    "build": "lerna run build"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
