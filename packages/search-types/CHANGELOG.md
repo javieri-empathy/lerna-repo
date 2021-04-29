@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0-alpha.3](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@4.2.0-alpha.2...@empathytest/search-types@4.2.0-alpha.3) (2021-04-29)
+
+
+### Features
+
+* remove filter from suggestion ([18cc92c](https://github.com/javieri-empathy/lerna-repo/commit/18cc92cf8759d58e0f9aef5e2fea80111b693feb))
+
+
+
+
+
 # [4.2.0-alpha.2](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@4.2.0-alpha.1...@empathytest/search-types@4.2.0-alpha.2) (2021-04-29)
 
 
