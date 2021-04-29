@@ -4,9 +4,9 @@ on:
     branches:
       - develop
     tags:
-      -
+      - '@[0-9]+.[0-9]+.[0-9]+-alpha.[0-9]+'
 jobs:
-  publish:
+  publish-alpha:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
