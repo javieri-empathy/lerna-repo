@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0-alpha.0](https://github.com/javieri-empathy/lerna-repo/compare/v4.1.0...v4.2.0-alpha.0) (2021-04-29)
+
+
+### Features
+
+* add filter to `Suggestion` model ([2c89670](https://github.com/javieri-empathy/lerna-repo/commit/2c896705e011dd8f575442fcd8897deb8ce95483))
+* add Suggestion ([3951c7d](https://github.com/javieri-empathy/lerna-repo/commit/3951c7d23702d523e4067f6c3770c3806963446a))
+
+
+
+
+
 # 4.0.0 (2021-03-31)
 
 
