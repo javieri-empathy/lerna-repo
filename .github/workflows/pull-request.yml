@@ -1,7 +1,5 @@
 name: Pull request
-on:
-  pull_request:
-  push:
+on: [pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
