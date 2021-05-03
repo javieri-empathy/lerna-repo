@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@empathytest/search-types": "^4.0.0"
+    "@empathytest/search-types": "^4.2.0-alpha.4"
   },
   "devDependencies": {
     "typescript": "^4.2.3"
