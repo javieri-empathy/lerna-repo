@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap --hoist",
+    "release:alpha": "lerna version --conventional-commits --conventional-prerelease",
     "build": "lerna run build"
   },
   "devDependencies": {

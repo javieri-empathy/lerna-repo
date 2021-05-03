@@ -3,6 +3,81 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0-alpha.4](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@4.2.0-alpha.3...@empathytest/search-types@4.2.0-alpha.4) (2021-05-03)
+
+
+### Features
+
+* **suggestion:** add `filter` property. ([0288990](https://github.com/javieri-empathy/lerna-repo/commit/0288990d9c01ea703324eaa5206f2cdbd0b38a6c))
+
+
+
+
+
+# [4.2.0-alpha.3](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@4.2.0-alpha.2...@empathytest/search-types@4.2.0-alpha.3) (2021-04-29)
+
+
+### Features
+
+* remove filter from suggestion ([18cc92c](https://github.com/javieri-empathy/lerna-repo/commit/18cc92cf8759d58e0f9aef5e2fea80111b693feb))
+
+
+
+
+
+# [4.2.0-alpha.2](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@4.2.0-alpha.1...@empathytest/search-types@4.2.0-alpha.2) (2021-04-29)
+
+
+### Features
+
+* **filter:** add filter to suggestion ([3e0ebd2](https://github.com/javieri-empathy/lerna-repo/commit/3e0ebd24d00998cdbd09b44f228d9258a5dc5592))
+
+
+
+
+
+# [4.2.0-alpha.1](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@3.0.0...@empathytest/search-types@4.2.0-alpha.1) (2021-04-29)
+
+
+### Features
+
+* remove filter from suggestion ([1db2519](https://github.com/javieri-empathy/lerna-repo/commit/1db2519d359ec786c8eb692c92cb36cb8708c475))
+
+
+
+# 4.2.0-alpha.0 (2021-04-29)
+
+
+### Features
+
+* add filter to `Suggestion` model ([2c89670](https://github.com/javieri-empathy/lerna-repo/commit/2c896705e011dd8f575442fcd8897deb8ce95483))
+* add Suggestion ([3951c7d](https://github.com/javieri-empathy/lerna-repo/commit/3951c7d23702d523e4067f6c3770c3806963446a))
+
+
+
+# 4.0.0 (2021-03-31)
+
+
+### Features
+
+* **result:** add `images` property ([946143b](https://github.com/javieri-empathy/lerna-repo/commit/946143b4f1f548aff177bfc59254fed1b8be42d3))
+
+
+
+
+
+# [4.2.0-alpha.0](https://github.com/javieri-empathy/lerna-repo/compare/v4.1.0...v4.2.0-alpha.0) (2021-04-29)
+
+
+### Features
+
+* add filter to `Suggestion` model ([2c89670](https://github.com/javieri-empathy/lerna-repo/commit/2c896705e011dd8f575442fcd8897deb8ce95483))
+* add Suggestion ([3951c7d](https://github.com/javieri-empathy/lerna-repo/commit/3951c7d23702d523e4067f6c3770c3806963446a))
+
+
+
+
+
 # 4.0.0 (2021-03-31)
 
 
