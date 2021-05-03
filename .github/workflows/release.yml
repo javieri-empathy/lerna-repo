@@ -8,6 +8,7 @@ on:
       - master
 jobs:
   release:
+    if: ${{ startsWith(github.ref, 'release/') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
