@@ -8,7 +8,7 @@ on:
       - master
 jobs:
   release:
-    if: ${{ startsWith(github.ref, 'release/') }}
+    if: ${{ github.ref == 'refs/heads/release' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
