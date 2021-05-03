@@ -9,7 +9,7 @@ function createReleaseBranch(name) {
     'git pull',
     `git branch -d ${name}`,
     `git push origin --delete ${name}`,
-    `git branch ${name}`,
+    `git checkout -b ${name}`,
     `git push -u origin ${name}`
   ].forEach(command => {
     execSync(command);
