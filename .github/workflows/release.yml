@@ -2,8 +2,6 @@ name: Release new version
 on:
   pull_request:
     types: [closed]
-    tags:
-      - "@empathyco/*"
     branches:
       - master
 jobs:
