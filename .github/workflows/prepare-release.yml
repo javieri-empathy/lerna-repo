@@ -23,7 +23,7 @@ jobs:
       #- name: Run tests in all packages
       #  run: npm run test
       - name: Prepare the release
-        run: 'npm run prepare-release:${{ github.event.input.kind }}'
+        run: 'npm run prepare-release:${{ github.event.inputs.kind }}'
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
