@@ -3,11 +3,11 @@
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap --hoist",
-    "release:alpha": "node release.js release && lerna version --conventional-commits --conventional-prerelease",
-    "prepare-release:stable": "lerna version --conventional-commits --no-git-tag-version --yes",
-    "prepare-release:alpha": "lerna version --conventional-commits --conventional-prerelease ---no-git-tag-version --yes",
+    "release:alpha": "node publish-release.js release && lerna version --conventional-commits --conventional-prerelease",
+    "prepare-release:stable": "node prepare-release",
+    "prepare-release:alpha": "node prepare-release alpha",
     "build": "lerna run build",
-    "publish":  "lerna publish from-package"
+    "publish-release":  "node publish-release"
   },
   "devDependencies": {
     "lerna": "^4.0.0"

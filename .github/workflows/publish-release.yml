@@ -1,14 +1,7 @@
-name: Release new version
+name: Release a new version
 on:
-  pull_request:
-    types: [closed]
-    branches:
-      - master
+  workflow_dispatch:
 jobs:
-  log:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo ${{ github.head_ref }}
   release:
     if: ${{ github.head_ref == 'release' }}
     runs-on: ubuntu-latest
