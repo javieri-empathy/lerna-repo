@@ -6,7 +6,8 @@
     "release:alpha": "node release.js release && lerna version --conventional-commits --conventional-prerelease",
     "prepare-release:stable": "lerna version --conventional-commits --no-git-tag-version --yes",
     "prepare-release:alpha": "lerna version --conventional-commits --conventional-prerelease ---no-git-tag-version --yes",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "publish":  "lerna publish from-package"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
