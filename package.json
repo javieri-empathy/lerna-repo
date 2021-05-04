@@ -7,7 +7,7 @@
     "prepare-release:stable": "node prepare-release",
     "prepare-release:alpha": "node prepare-release alpha",
     "build": "lerna run build",
-    "publish-release":  "node publish-release"
+    "publish-release": "node publish-release"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
