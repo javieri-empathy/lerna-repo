@@ -4,6 +4,8 @@
   "scripts": {
     "postinstall": "lerna bootstrap --hoist",
     "release:alpha": "node release.js release && lerna version --conventional-commits --conventional-prerelease",
+    "prepare-release:stable": "lerna version --conventional-commits --no-git-tag",
+    "prepare-release:alpha": "lerna version --conventional-commits --conventional-prerelease --no-git-tag",
     "build": "lerna run build"
   },
   "devDependencies": {
