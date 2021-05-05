@@ -25,6 +25,8 @@ jobs:
         run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+     -  name: Check publisher
+        run: 'npm whoami'
       - name: Prepare the release
         run: 'npm run publish-release'
       - name: Push changes
