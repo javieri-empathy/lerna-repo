@@ -21,6 +21,10 @@ jobs:
         run: |
           git config --local user.email "x@empathy.co"
           git config --local user.name "empathy/x"
+      - name: Create .npmrc file with authorization token
+        run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Prepare the release
         run: 'npm run publish-release'
       - name: Push changes
