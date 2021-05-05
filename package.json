@@ -3,7 +3,6 @@
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap --hoist",
-    "release:alpha": "node publish-release.js release && lerna version --conventional-commits --conventional-prerelease",
     "prepare-release:stable": "node prepare-release",
     "prepare-release:alpha": "node prepare-release alpha",
     "build": "lerna run build",
