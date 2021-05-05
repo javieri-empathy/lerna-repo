@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@5.0.3...@empathytest/search-types@5.1.0) (2021-05-05)
+
+
+### Features
+
+* add filter ([57ebeb7](https://github.com/javieri-empathy/lerna-repo/commit/57ebeb72ff1f3017c9621a218a518850df6e0e1a))
+
+
+
+
+
 ## [5.0.3](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@5.0.2...@empathytest/search-types@5.0.3) (2021-05-05)
 
 **Note:** Version bump only for package @empathytest/search-types
