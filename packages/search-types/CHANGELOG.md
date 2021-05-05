@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.0.0-alpha.0 (2021-05-05)
+
+
+### Features
+
+* remove suggestion impl ([e061ef5](https://github.com/javieri-empathy/lerna-repo/commit/e061ef5e05edf3a69599f525f28b4e5d2d068be0))
+
+
+### BREAKING CHANGES
+
+* remove suggestion impl
+
+
+
+
+
 # [4.4.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@4.3.1...@empathytest/search-types@4.4.0) (2021-05-05)
 
 
