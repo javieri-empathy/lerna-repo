@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0-alpha.21](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@4.2.0-alpha.20...@empathytest/search-types@4.2.0-alpha.21) (2021-05-05)
+
+**Note:** Version bump only for package @empathytest/search-types
+
+
+
+
+
 # 4.2.0-alpha.20 (2021-05-05)
 
 **Note:** Version bump only for package @empathytest/search-types
