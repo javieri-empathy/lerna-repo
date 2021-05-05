@@ -5,7 +5,3 @@ export const result: Result = {
   title: 'A result',
   images: []
 }
-
-export const suggestion: Suggestion = {
-  query: 'a query'
-}
