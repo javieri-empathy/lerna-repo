@@ -2,6 +2,13 @@
   "packages": [
     "packages/*"
   ],
+  "ignoreChanges": [
+    "**/CHANGELOG.md",
+    "**/node_modules/**",
+    "**/package.json",
+    "**/*.md",
+    "lerna.json"
+  ],
   "version": "independent",
   "command": {
     "version": {
