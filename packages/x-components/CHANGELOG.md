@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.2.0-alpha.19 (2021-05-05)
+
+
+### Features
+
+* update publish release ([3850c72](https://github.com/javieri-empathy/lerna-repo/commit/3850c7268f3721aef0355c5480d46d0ea5db2ffa))
+
+
+
+
+
 # [4.2.0-alpha.18](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/x-components@4.2.0-alpha.12...@empathytest/x-components@4.2.0-alpha.18) (2021-05-05)
 
 **Note:** Version bump only for package @empathytest/x-components
