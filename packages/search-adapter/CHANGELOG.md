@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0-alpha.11 (2021-05-05)
+
+
+### Features
+
+* update publish release ([2ea6b70](https://github.com/javieri-empathy/lerna-repo/commit/2ea6b704ecb0a9dfadcf1920e1a3bc5512daa3a8))
+
+
+
+
+
 # 1.1.0-alpha.10 (2021-05-05)
 
 **Note:** Version bump only for package @empathytest/search-adapter
