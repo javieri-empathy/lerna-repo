@@ -1,6 +1,6 @@
 {
   "name": "@empathytest/x-components",
-  "version": "9.1.1",
+  "version": "10.0.0-alpha.0",
   "description": "",
   "main": "index.js",
   "scripts": {

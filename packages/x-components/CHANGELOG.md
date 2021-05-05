@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.0.0-alpha.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/x-components@9.1.1...@empathytest/x-components@10.0.0-alpha.0) (2021-05-05)
+
+
+### Features
+
+* remove suggestion implementation ([3b3de78](https://github.com/javieri-empathy/lerna-repo/commit/3b3de78cc68d541687c134c7798f69cde3b75ae1))
+
+
+### BREAKING CHANGES
+
+* Remove suggestion implementation
+
+
+
+
+
 ## [9.1.1](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/x-components@9.1.0...@empathytest/x-components@9.1.1) (2021-05-05)
 
 **Note:** Version bump only for package @empathytest/x-components
