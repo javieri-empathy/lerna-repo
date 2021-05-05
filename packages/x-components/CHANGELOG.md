@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.5.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/x-components@4.4.0...@empathytest/x-components@4.5.0) (2021-05-05)
+
+
+### Features
+
+* add Suggestion impl ([e158859](https://github.com/javieri-empathy/lerna-repo/commit/e158859d028e7467eeaf66af658d5550f1eebd3d))
+* remove gitHead ([b8500fd](https://github.com/javieri-empathy/lerna-repo/commit/b8500fde90b6486c8bb1dede441bff321da0f128))
+
+
+
+
+
 # [4.4.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/x-components@4.3.0...@empathytest/x-components@4.4.0) (2021-05-05)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.4.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@4.3.1...@empathytest/search-types@4.4.0) (2021-05-05)
+
+
+### Features
+
+* remove gitHead ([b8500fd](https://github.com/javieri-empathy/lerna-repo/commit/b8500fde90b6486c8bb1dede441bff321da0f128))
+
+
+
+
+
 ## [4.3.1](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@4.3.0...@empathytest/search-types@4.3.1) (2021-05-05)
 
 **Note:** Version bump only for package @empathytest/search-types
