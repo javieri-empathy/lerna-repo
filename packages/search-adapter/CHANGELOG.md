@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0-alpha.9 (2021-05-05)
+
+
+### Features
+
+* add `filter` to `Suggestion` interface. ([1aaf592](https://github.com/javieri-empathy/lerna-repo/commit/1aaf592b304a7a1a95e8d69a8da0eb42a81b1238))
+
+
+
+
+
 # 1.1.0-alpha.8 (2021-05-05)
 
 **Note:** Version bump only for package @empathytest/search-adapter
