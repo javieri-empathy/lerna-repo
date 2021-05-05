@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0-alpha.0 (2021-05-05)
+
+
+### Features
+
+* remove filter property ([04b8b21](https://github.com/javieri-empathy/lerna-repo/commit/04b8b21f5e292a9c3e5ff0cbd5546a7aaabdb4ce))
+
+
+
+
+
 # [1.1.0-alpha.16](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-adapter@1.1.0-alpha.15...@empathytest/search-adapter@1.1.0-alpha.16) (2021-05-05)
 
 **Note:** Version bump only for package @empathytest/search-adapter
