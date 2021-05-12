@@ -5,7 +5,6 @@ const [releaseKind = 'stable'] = process.argv.slice(2);
 const releaseKindArgument = releaseKind === 'alpha' ? '--conventional-prerelease' : '--conventional-graduate';
 const branchesOutput = exec('git branch -r').trim();
 const remoteBranches = branchesOutput.split('\n').map(branch => branch.trim());
-console.log(remoteBranches);
 if (remoteBranches.includes(`origin/${branchName}`)) {
   exec(`git push --delete origin ${ branchName }`);
 }
