@@ -2,10 +2,10 @@ name: Release a new version
 on:
   pull_request:
     types: [ closed ]
-    branches: [ main ]
+    branches: [ master ]
 jobs:
   release:
-    if: github.ref == 'release'
+    if: github.event.pull_request.merged == true && github.ref == 'release'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
