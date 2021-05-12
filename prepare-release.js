@@ -10,4 +10,4 @@ if (remoteBranches.includes(`origin/${branchName}`)) {
 }
 // exec(`git checkout -b ${ branchName }`);
 exec(`lerna version --conventional-commits --no-git-tag-version --yes ${ releaseKindArgument }`);
-exec(`git commit -m "chore(release): prepare ${releaseKind} release" -a`);
+//exec(`git commit -m "chore(release): prepare ${releaseKind} release" -a`);
