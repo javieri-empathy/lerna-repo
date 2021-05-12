@@ -4,6 +4,15 @@ on:
     types: [ closed ]
     branches: [ master ]
 jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log base_ref
+        run: echo ${{  github.base_ref }}
+      - name: Log github.event.pull_request.merged
+        run: echo ${{  github.event.pull_request.merged }}
+      - name: Log ref
+        run: echo ${{  github.ref }}
   release:
     if: github.event.pull_request.merged == true && github.base_ref == 'release'
     runs-on: ubuntu-latest
