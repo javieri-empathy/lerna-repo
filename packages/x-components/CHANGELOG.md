@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.6](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/x-components@10.0.1...@empathytest/x-components@10.0.6) (2021-05-12)
+
+**Note:** Version bump only for package @empathytest/x-components
+
+
+
+
+
 ## [10.0.5](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/x-components@10.0.1...@empathytest/x-components@10.0.5) (2021-05-12)
 
 **Note:** Version bump only for package @empathytest/x-components
