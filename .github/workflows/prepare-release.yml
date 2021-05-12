@@ -32,11 +32,6 @@ jobs:
           git config --local user.name "empathy/x"
       - name: Prepare the release
         run: 'npm run prepare-release:${{ github.event.inputs.kind }}'
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
