@@ -43,3 +43,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           delete-branch: true
           commit-message: 'chore(release): prepare ${{ github.event.inputs.kind }} release'
+          title: '${{ github.event.inputs.kind }} release'
+          body: 'Preparation of the release'
+          branch: 'release'
