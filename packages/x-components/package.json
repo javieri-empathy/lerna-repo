@@ -1,6 +1,6 @@
 {
   "name": "@empathytest/x-components",
-  "version": "10.0.2",
+  "version": "10.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@empathytest/search-types": "^5.3.0"
+    "@empathytest/search-types": "^5.4.0"
   },
   "devDependencies": {
     "typescript": "^4.2.3"
