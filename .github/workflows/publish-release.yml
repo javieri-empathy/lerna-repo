@@ -2,9 +2,10 @@ name: Release a new version
 on:
   pull_request:
     types: [ closed ]
-    branches: [ release ]
+    branches: [ main ]
 jobs:
   release:
+    if: github.ref == 'release'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
