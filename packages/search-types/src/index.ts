@@ -11,5 +11,4 @@ export interface Result {
 
 export interface Suggestion {
   query: string;
-  filter: string;
 }
