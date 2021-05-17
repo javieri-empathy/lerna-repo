@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0-alpha.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-adapter@2.0.13...@empathytest/search-adapter@2.1.0-alpha.0) (2021-05-17)
+
+
+### Features
+
+* **search-adapter:** Add `getSuggestions` implementation. ([0530f72](https://github.com/javieri-empathy/lerna-repo/commit/0530f726d8d523a0088a01c5046bf75a5699f214))
+
+
+
+
+
 ## [2.0.13](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-adapter@2.0.12...@empathytest/search-adapter@2.0.13) (2021-05-17)
 
 **Note:** Version bump only for package @empathytest/search-adapter
