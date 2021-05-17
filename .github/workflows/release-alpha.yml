@@ -27,7 +27,7 @@ jobs:
         run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: Prepare the release
+      - name: Publish release
         run: npm run release:alpha
-      - name: Create Pull Request
+      - name: Push changes to GitHub
         run: git push --follow-tags
