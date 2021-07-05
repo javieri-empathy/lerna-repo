@@ -12,3 +12,7 @@ export interface Result {
 export interface Suggestion {
   query: string;
 }
+
+export interface Test {
+  something: unknown;
+}
