@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@6.0.0...@empathytest/search-types@6.1.0) (2021-07-05)
+
+
+### Features
+
+* add test interface ([#26](https://github.com/javieri-empathy/lerna-repo/issues/26)) ([9db51e0](https://github.com/javieri-empathy/lerna-repo/commit/9db51e0d82b7f340eb010b0cb5bedbf0bede586c))
+
+
+
+
+
 # [6.0.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@6.0.0-alpha.0...@empathytest/search-types@6.0.0) (2021-05-17)
 
 **Note:** Version bump only for package @empathytest/search-types
