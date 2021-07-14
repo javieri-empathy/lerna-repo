@@ -8,7 +8,3 @@ export interface Result {
   title: string;
   images: string[];
 }
-
-export interface Suggestion {
-  query: string;
-}
