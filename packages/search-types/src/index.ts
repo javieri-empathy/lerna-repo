@@ -5,6 +5,5 @@ export interface RelatedTag {
 
 export interface Result {
   id: string;
-  title: string;
   images: string[];
 }
