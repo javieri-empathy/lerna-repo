@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.0.0-alpha.1](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@8.0.0-alpha.0...@empathytest/search-types@9.0.0-alpha.1) (2021-07-14)
+
+
+### Features
+
+* Remove title from result ([c50f7bf](https://github.com/javieri-empathy/lerna-repo/commit/c50f7bf575a777c2c9297354b921457a409b18b1))
+
+
+### BREAKING CHANGES
+
+* Remove title from result
+
+
+
+
+
 # [8.0.0-alpha.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@6.1.0...@empathytest/search-types@8.0.0-alpha.0) (2021-07-14)
 
 
