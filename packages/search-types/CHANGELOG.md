@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-alpha.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@6.1.0...@empathytest/search-types@8.0.0-alpha.0) (2021-07-14)
+
+
+### Features
+
+* Remove suggestion ([ac2c6ec](https://github.com/javieri-empathy/lerna-repo/commit/ac2c6ec7b29ac54f569f2548b157e9d690ef9c04))
+* remove test interface ([#28](https://github.com/javieri-empathy/lerna-repo/issues/28)) ([d04a616](https://github.com/javieri-empathy/lerna-repo/commit/d04a616b06248cdb375e928cdbb589963380b42c))
+* Update search types version ([495be6e](https://github.com/javieri-empathy/lerna-repo/commit/495be6e019f023cb24c5edf1193b82e98a097073))
+
+
+### BREAKING CHANGES
+
+* Remove suggestion
+* test interface removed
+
+
+
+
+
 # [6.1.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@6.0.0...@empathytest/search-types@6.1.0) (2021-07-05)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@empathytest/search-types",
-  "version": "7.0.0",
+  "version": "8.0.0-alpha.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
