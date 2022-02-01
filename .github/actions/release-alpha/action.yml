@@ -15,7 +15,7 @@ runs:
         git config --local user.email "x@empathy.co"
         git config --local user.name "empathy/x"
     - name: Create .npmrc file with authorization token
-      run: echo //registry.npmjs.org/:_authToken=${inputs.npm-token} > .npmrc
+      run: echo //registry.npmjs.org/:_authToken=${{ inputs.npm-token }} > .npmrc
       shell: bash
       env:
         NPM_TOKEN: ${{ inputs.github-token }}
