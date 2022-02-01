@@ -1,4 +1,11 @@
 name: Release alpha
+inputs:
+  github-token:
+    description: Token to push code with
+    required: true
+  npm-token:
+    description: Token to push code with
+    required: true
 runs:
   using: "composite"
   steps:
@@ -7,9 +14,9 @@ runs:
         git config --local user.email "x@empathy.co"
         git config --local user.name "empathy/x"
     - name: Create .npmrc file with authorization token
-      run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+      run: echo //registry.npmjs.org/:_authToken=${inputs.npm-token} > .npmrc
       env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NPM_TOKEN: ${{ inputs.github-token }}
     - name: Publish release
       run: npm run release:alpha
     - name: Push changes to GitHub

@@ -21,3 +21,6 @@ jobs:
 #        run: npm run test
       - name: Release alpha
         uses: ./.github/actions/release-alpha
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          npm-token: ${{NPM_TOKEN}}
