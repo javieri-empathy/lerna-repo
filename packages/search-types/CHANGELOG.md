@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 9.0.0-alpha.2 (2022-02-01)
+
+**Note:** Version bump only for package @empathytest/search-types
+
+
+
+
+
 # [9.0.0-alpha.1](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@8.0.0-alpha.0...@empathytest/search-types@9.0.0-alpha.1) (2021-07-14)
 
 
