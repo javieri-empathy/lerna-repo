@@ -1,9 +1,8 @@
 name: Release alpha
-on: [workflow_call]
-jobs:
-  release_alpha:
-    runs-on: ubuntu-latest
-    steps:
+on: [ workflow_call ]
+runs:
+  using: "composite"
+  steps:
     - name: Configure git user
       run: |
         git config --local user.email "x@empathy.co"
