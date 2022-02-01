@@ -1,3 +1,4 @@
+name: Release alpha
 on: [workflow_call]
 jobs:
   release_alpha:
