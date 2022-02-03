@@ -1,5 +1,5 @@
 name: Pull request
-on: [pull_request]
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,6 +12,8 @@ jobs:
         run: npm install
       - name: Build all packages
         run: npm run build
+      - name: Log actor
+        run: echo ${{ github.actor }}
       #- name: Run linter in all packages
       #  run: npm run lint
       #- name: Run tests in all packages
