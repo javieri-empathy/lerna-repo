@@ -1,0 +1,26 @@
+name: Auto release alpha
+on:
+  workflow_run:
+    branches: [ master ]
+    workflows: [ Check branch is releasable ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node14.17.0-chrome91-ff89
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Install lerna and all packages
+        run: npm install -g lerna
+      - uses: actions/download-artifact@v3
+        with:
+          name: dist-files
+      - name: Release alpha on non-release pushes to main branch
+        uses: ./.github/actions/release-alpha
+        with:
+          npm-token: ${{ secrets.NPM_TOKEN }}
