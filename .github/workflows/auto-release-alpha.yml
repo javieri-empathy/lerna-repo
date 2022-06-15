@@ -3,6 +3,7 @@ on:
   workflow_run:
     branches: [ master ]
     workflows: [ Check branch is releasable ]
+    types: [completed]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}
@@ -11,6 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container: cypress/browsers:node14.17.0-chrome91-ff89
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v2
         with:
