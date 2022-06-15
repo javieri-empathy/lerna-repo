@@ -4,7 +4,7 @@
   "scripts": {
     "build": "lerna run build",
     "lint": "lerna run lint",
-    "postci": "lerna bootstrap --hoist --ci && npm run build",
+    "postci": "lerna bootstrap --hoist --ci",
     "test": "lerna run test",
     "postinstall": "lerna bootstrap --hoist",
     "prepare-release:stable": "lerna version --conventional-commits --no-git-tag-version --yes --conventional-graduate",
