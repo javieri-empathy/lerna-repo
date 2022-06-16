@@ -15,13 +15,13 @@ const { execSync } = require("child_process");
     (artifact) => artifact.name === "dist-files"
   );
   const download = await octokit.rest.actions.downloadArtifact({
-    owner: context.repo.owner,
-    repo: context.repo.repo,
+    owner: github.context.repo.owner,
+    repo: github.context.repo.repo,
     artifact_id: matchArtifact.id,
     archive_format: "zip",
   });
   fs.writeFileSync(
-    `${github.workspace}/dist-files.zip`,
+    `dist-files.zip`,
     Buffer.from(download.data)
   );
   execSync("unzip dist-files.zip");
