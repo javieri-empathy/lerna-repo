@@ -7,8 +7,8 @@ const { execSync } = require("child_process");
   const githubToken = core.getInput("token");
   const octokit = github.getOctokit(githubToken);
   const artifacts = await octokit.rest.actions.listWorkflowRunArtifacts({
-    owner: context.repo.owner,
-    repo: context.repo.repo,
+    owner: github.context.repo.owner,
+    repo: github.context.repo.repo,
     run_id: github.event.workflow_run.id,
   });
   const matchArtifact = artifacts.data.artifacts.find(
