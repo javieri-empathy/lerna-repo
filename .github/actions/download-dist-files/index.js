@@ -6,7 +6,6 @@ const { execSync } = require("child_process");
 (async function downloadDistFiles() {
   const githubToken = core.getInput("token");
   const octokit = github.getOctokit(githubToken);
-  console.log(github.context);
   const artifacts = await octokit.rest.actions.listWorkflowRunArtifacts({
     owner: github.context.repo.owner,
     repo: github.context.repo.repo,
@@ -26,4 +25,9 @@ const { execSync } = require("child_process");
     Buffer.from(download.data)
   );
   execSync("unzip dist-files.zip");
+  console.log('FILES');
+  console.log(fs.readdirSync('packages/search-adapter/dist'));
+  console.log(fs.readdirSync('packages/search-types/dist'));
+  console.log(fs.readdirSync('packages/x-components/dist'));
+  console.log(fs.readdirSync('packages/x-utils/dist'));
 })();
