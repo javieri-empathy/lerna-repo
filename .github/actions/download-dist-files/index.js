@@ -6,10 +6,11 @@ const { execSync } = require("child_process");
 (async function downloadDistFiles() {
   const githubToken = core.getInput("token");
   const octokit = github.getOctokit(githubToken);
+  console.log(github.context);
   const artifacts = await octokit.rest.actions.listWorkflowRunArtifacts({
     owner: github.context.repo.owner,
     repo: github.context.repo.repo,
-    run_id: github.event.workflow_run.id,
+    run_id: github.context.workflow_run.id,
   });
   const matchArtifact = artifacts.data.artifacts.find(
     (artifact) => artifact.name === "dist-files"
