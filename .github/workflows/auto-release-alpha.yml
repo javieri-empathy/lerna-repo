@@ -17,8 +17,10 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Install lerna and all packages
+      - name: Install lerna
         run: npm install -g lerna
+      - name: Bootstrap packages
+        run: lerna bootstrap --hoist
       - name: Download dist files
         uses: ./.github/actions/download-dist-files
       - name: Release alpha on non-release pushes to main branch
