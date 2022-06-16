@@ -12,6 +12,7 @@
     "publish-release": "node publish-release"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "prettier": "^2.7.1"
   }
 }
