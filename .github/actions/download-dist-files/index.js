@@ -20,14 +20,8 @@ const { execSync } = require("child_process");
     artifact_id: matchArtifact.id,
     archive_format: "zip",
   });
-  fs.writeFileSync(
-    `dist-files.zip`,
-    Buffer.from(download.data)
-  );
+  fs.writeFileSync(`dist-files.zip`, Buffer.from(download.data));
   execSync("unzip dist-files.zip");
-  console.log('FILES');
-  console.log(fs.readdirSync('lerna-repo/packages/search-adapter/dist'));
-  console.log(fs.readdirSync('lerna-repo/packages/search-types/dist'));
-  console.log(fs.readdirSync('lerna-repo/packages/x-components/dist'));
-  console.log(fs.readdirSync('lerna-repo/packages/x-utils/dist'));
+  console.log("FILES");
+  console.log(require("directory-tree")("."));
 })();
