@@ -23,6 +23,8 @@ jobs:
         run: lerna bootstrap --hoist
       - name: Download dist files
         uses: ./.github/actions/download-dist-files
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Release alpha on non-release pushes to main branch
         uses: ./.github/actions/release-alpha
         with:
