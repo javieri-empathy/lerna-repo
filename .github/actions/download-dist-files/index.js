@@ -20,8 +20,8 @@ const { execSync } = require("child_process");
     artifact_id: matchArtifact.id,
     archive_format: "zip",
   });
-  fs.writeFileSync(`dist-files.zip`, Buffer.from(download.data));
-  execSync("unzip dist-files.zip");
+  fs.writeFileSync(`packages/dist-files.zip`, Buffer.from(download.data));
+  execSync("unzip packages/dist-files.zip");
   console.log("FILES");
-  console.log(require("directory-tree")("."));
+  console.log(require("directory-tree")("packages"));
 })();
