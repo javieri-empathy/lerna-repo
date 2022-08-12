@@ -22,5 +22,5 @@ jobs:
         uses: ./.github/actions/release-alpha
         with:
           npm-token: ${{ secrets.NPM_TOKEN }}
-          github-token: 'test-token'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
