@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.0.0-alpha.0](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@9.0.0-alpha.1...@empathytest/search-types@10.0.0-alpha.0) (2022-08-12)
+
+
+### Features
+
+* Remove images from result & Rename id to uniqueId ([55ec8e5](https://github.com/javieri-empathy/lerna-repo/commit/55ec8e5fd8cfc80df2316ea955a548dd4661ce65))
+
+
+### BREAKING CHANGES
+
+* Remove images from result.
+* Rename `id` to `uniqueId` in result.
+
+
+
+
+
 # [9.0.0-alpha.1](https://github.com/javieri-empathy/lerna-repo/compare/@empathytest/search-types@8.0.0-alpha.0...@empathytest/search-types@9.0.0-alpha.1) (2021-07-14)
 
 
