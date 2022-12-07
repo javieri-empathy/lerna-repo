@@ -1,22 +1,23 @@
 name: "Combine PRs"
-inputs:
-  branchPrefix:
-    description: "Branch prefix to find combinable PRs based on"
-    required: true
-    default: "dependabot"
-  mustBeGreen:
-    description: "Only combine PRs that are green (status is success)"
-    required: true
-    type: boolean
-    default: true
-  combineBranchName:
-    description: "Name of the branch to combine PRs into"
-    required: true
-    default: "combine-prs-branch"
-  ignoreLabel:
-    description: "Exclude PRs with this label"
-    required: true
-    default: "nocombine"
+on:
+  workflow_dispatch:
+    inputs:
+      branchPrefix:
+        description: 'Branch prefix to find combinable PRs based on'
+        required: true
+        default: 'dependabot'
+      mustBeGreen:
+        description: 'Only combine PRs that are green (status is success)'
+        required: true
+        default: true
+      combineBranchName:
+        description: 'Name of the branch to combine PRs into'
+        required: true
+        default: 'combine-prs-branch'
+      ignoreLabel:
+        description: 'Exclude PRs with this label'
+        required: true
+        default: 'nocombine'
 jobs:
   # This workflow contains a single job called "combine-prs"
   combine-prs:
