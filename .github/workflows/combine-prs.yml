@@ -1,0 +1,34 @@
+name: "Combine PRs"
+inputs:
+  branchPrefix:
+    description: "Branch prefix to find combinable PRs based on"
+    required: true
+    default: "dependabot"
+  mustBeGreen:
+    description: "Only combine PRs that are green (status is success)"
+    required: true
+    type: boolean
+    default: true
+  combineBranchName:
+    description: "Name of the branch to combine PRs into"
+    required: true
+    default: "combine-prs-branch"
+  ignoreLabel:
+    description: "Exclude PRs with this label"
+    required: true
+    default: "nocombine"
+jobs:
+  # This workflow contains a single job called "combine-prs"
+  combine-prs:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Call combine PRs action
+        uses: ./.github/actions/combine-dependabot-prs
+        with:
+          branchPrefix: ${{ inputs.branchPrefix }}
+          mustBeGreen: ${{ inputs.mustBeGreen }}
+          combineBranchName: ${{ inputs.combineBranchName }}
+          ignoreLabel: ${{ inputs.ignoreLabel }}

@@ -1,0 +1,22 @@
+name: "Combine Dependabot PRs"
+description: "Combines dependabot ready to merge PRs into a single one"
+inputs:
+  branchPrefix:
+    description: 'Branch prefix to find combinable PRs based on'
+    required: true
+    default: 'dependabot'
+  mustBeGreen:
+    description: 'Only combine PRs that are green (status is success)'
+    required: true
+    default: true
+  combineBranchName:
+    description: 'Name of the branch to combine PRs into'
+    required: true
+    default: 'combine-prs-branch'
+  ignoreLabel:
+    description: 'Exclude PRs with this label'
+    required: true
+    default: 'nocombine'
+runs:
+  using: "node16"
+  main: "index.js"
